@@ -63,7 +63,7 @@ def create_csv():
 
 def run():
     total_page=login()
-    options=int(input('Input Option Number:\n1.collecting all url\n2. get detail all product\n3.create csv\n'))
+    options=int(input('Input Option Number:\n1.collecting all url\n2.get detail all product\n3.create csv\n'))
     if options==1:
         total_urls=[]
         for i in range(total_page):
